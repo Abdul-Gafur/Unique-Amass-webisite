@@ -1,0 +1,181 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto
+}
+
+.figure {
+    display: inline-block
+}
+
+@media(min-width:1200px) {
+    .coll-lg-9 {
+        width: 75%;
+    }
+    .coll-lg-9 {
+        float: left;
+    }
+    .coll-lg-8 {
+        float: left;
+    }
+    .coll-lg-4 {
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .coll-md-8 {
+        width: 105%;
+    }
+}
+
+.coll-lg-9,
+.coll-md-8,
+.coll-sm-7 {
+    position: relative;
+    min-height: 1px;
+    padding-top: 10px;
+}
+
+.course-List-widget {
+    margin: 0 0 30px;
+    border-radius: 4px;
+}
+
+.tc-hover {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.row1.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row1::before {
+    display: table;
+    content: " ";
+}
+
+.coll-lg-4 {
+    float: left;
+}
+
+.coll-lg-4,
+.coll-xs-12,
+.coll-lg-8,
+.coll-xs-12 {
+    position: relative;
+    min-height: 1px;
+}
+
+.row1.no-gutters>[class^="col-"],
+.row1.no-gutters>[class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+    .coll-lg-4 {
+        width: 39.33333333%;
+    }
+}
+
+.course-list-img img {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .coll-lg-8 {
+        width: 60.66666667%;
+    }
+}
+
+.course-List-widget .course-detail {
+    background: #fff;
+    padding: 39px 30px;
+    min-height: 281px;
+}
+
+.course-List-widget {
+    margin: 0 0 30px;
+    border-radius: 4px;
+}
+
+.course-detail {
+    overflow: hidden;
+}
+
+.course-List-widget .course-detail h4 {
+    margin: 0 0 20px;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.btn.blue {
+    background: rgb(201, 201, 65);
+}
+
+.btn {
+    text-transform: capitalize;
+}
+
+.btn.sm {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    min-width: 100px;
+}
+
+.btn.blue {
+    color: #fff;
+    border: 0;
+}
+
+.btn {
+    font-size: 14px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn i {
+    margin: 0 0 0 10px;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+}
+
+.row1::after {
+    clear: both;
+}
+
+*:after,
+*:before {
+    transition: all 0.5s ease-in-out;
+}
+
+*:after,
+*:before,
+.tc-hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*   */
+
+
+/****** Programmes List ***********************************************************
